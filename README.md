@@ -1,4 +1,5 @@
 # NUC8I5BEH Hackintosh (OpenCore)
+## NUC8（豆子峡谷）在线安装macOS
 
 ![Hackintosh](AboutThisMac.png)
 
@@ -6,11 +7,12 @@
 + OS: macOS Catalina 10.15.7 19H2 x86_64 / Macmini8,1
 + OpenCore: 0.6.2
 + CPU: Intel® Core™ i5-8259U Processor (6M Cache, up to 3.80 GHz)
-+ SSD: 500GB [KONKA K550](https://union-click.jd.com/jdc?e=&p=AyIGZRheHQMRBFATUhMyEgZUGloTARsHXBxZJUZNXwtEa0xHV0YXEEULWldTCQQHCllHGAdFBwtEQkQBBRxNVlQYBUkeTVxNCRNLGEF6RwtVGloUAxQEXBtSEgAieAoSDE9wdk8wYAsSQmB4LlwJXl5nQVkXaxQyEgZUGlkRAxYDVStrFQUiRTvP0JPXnoWAleDCq7zf5LCCipwiBmUbXBQBGgRUGlsSChcBZRxbHDLLmdPP9ox3dtPHmo%2B0vcSj%2FcLCpDIiN1YrayUCIgRlWTUUV0IPAB9ZFwYbDgceXxZRQgUGGw9FVxcGAhJZEAEQA2UZWhQGGw%3D%3D)
-+ RAM: 8GB x 2 [ADATA DDR4 2666](https://union-click.jd.com/jdc?e=&p=AyIGZRprFQMTBlQaXBYFFwVcKx9KWkxYZUIeUENQDEsFA1BWThgJBABAHUBZCQUdRUFGGRJDD1MdQlUQQwVKDFRXFk8jQA4SBlQaWhQFEQBQGVIlWgxQAXlYbEpxfxFdCXJ6Fx0iUiR%2Bch4LZRprFQMTBlcfWhEGEjdlG1wlVHwHVBpaFAMTAVUeaxQyEgBUGFMWAxMPURJfHTIVB1wrgouExqrMbj%2FBkJPT9KSNsarLnuQrayUBIjdlG2sWMlBpUUhZQAVCBldJWEEEF1UGHwsRARpTV04OE1JAVFwTUxMyEAZUH1I%3D)
-+ BIOS: [0078](https://drivers.softpedia.com/get/BIOS/Intel/Intel-NUC8i5BEH-NUC-Kit-BIOS-0078.shtml)
-+ Monitor: [Redmi 1A 23.8](https://union-click.jd.com/jdc?e=&p=AyIGZRprFQMTBlUZXhEGFgBcKx9KWkxYZUIeUENQDEsFA1BWThgJBABAHUBZCQUdRUFGGRJDD1MdQlUQQwVKDFRXFk8jQA4SBlQaWxcHFgNRHFIlAnJuPUAMRwVyWgVFCGl%2FamY0eFhxYh4LZRprFQMTBlcfWhEGEjdlG1wlVHwHVBpaFAMXB1YZaxQyEgBUGFMWAxAGUxhZFDIVB1wrgouExqrMbj%2FBkJPT9KSNsarLnuQrayUBIjdlG2sWMlBpAE4OEQIUVFAZCxQAFw5SE1MQChMOBRsIQVISD1dLWRYyEAZUH1I%3D)
++ SSD: 500GB HP EX900系列
++ RAM: 16GB x 1 ￼光威（Gloway）16GB DDR4 2666频率 战将系列
++ BIOS: 0085
++ Monitor: AOC 27英寸 Q2790PQ
 
+#### SP：采购的机器是SD卡硬改的全新NUC8I5BEH厚版
 
 ### BIOS设置
 + __Disable__
@@ -26,11 +28,15 @@
 	- Stay Off
 
 
-### 使用方法
-将 **EFI** 和 **NUC8_MacOnlineInstaller** 放入FAT32 U盘根目录，执行**NUC8_MacOnlineInstaller**中的run脚本，完成后使用U盘开机即可安装
+### 制作U盘启动盘
++ 使用diskginues把U盘格式化为FAT32文件系统（不格式化为FAT32的话我进不去uefi引导）
++ 将 **EFI** 和 **NUC8_MacOnlineInstaller** 两个文件夹放入U盘根目录，执行**NUC8_MacOnlineInstaller**中的run脚本，完成后使用U盘开机即可安装
++ 其他安装流程跟网上一模一样，[详见](https://www.jianshu.com/p/78510cfa4a64)
 
----
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
+### 安装心情记录
++ 安装后完美使用，是最新的10.15.7版本，感觉终于用上全家桶了
++ 能够完美使用Wi-Fi，蓝牙，airdrop，随航。还能无缝连我的AirPods2
++ 后悔选择2K屏幕了，感觉字体小，改分辨率又模糊，不想修改HIDPI，还是换个4k屏幕吧
++ 这个在线安装黑苹果的方法绝对是最省心的。os镜像需要在线下载，学校的网速又慢，于是选择睡觉前安装，打开扔着，早上睡醒就进入新系统设置界面了
++ 开放这个脚本的好像要收费，但我是从Github fork下来的，算是白嫖吧～
