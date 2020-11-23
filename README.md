@@ -4,9 +4,10 @@
 ![Hackintosh](AboutThisMac.png)
 
 ### 关于在线更新11.0.1的方法
-需要注意的是，这个EFI不支持在线更新到最新的11.0.1系统。
+需要注意的是，这个EFI不支持在线更新到最新的11.0.1系统。（强行更新会卡进度条，进不去系统）
 需要在线更新的方法，是安装好系统后，替换最新的支持11的EFI，再进行系统更新。
-本人常识使用该项目的[EFI](https://github.com/csrutil/NUC8I5BEH)，顺利升级到最新的系统。
+本人尝试使用该项目的[EFI](https://github.com/csrutil/NUC8I5BEH)，顺利升级到最新的系统。
+使用方法：直接下载该项目的EFI，在自己电脑中用Hackintool挂载EFI，删除原来的，再把新EFI拷贝进去即可。
 
 
 ### 配置
