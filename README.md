@@ -3,6 +3,12 @@
 
 ![Hackintosh](AboutThisMac.png)
 
+### 关于在线更新11.0.1的方法
+需要注意的是，这个EFI不支持在线更新到最新的11.0.1系统。
+需要在线更新的方法，是安装好系统后，替换最新的支持11的EFI，再进行系统更新。
+本人常识使用该项目的[EFI](https://github.com/csrutil/NUC8I5BEH)，顺利升级到最新的系统。
+
+
 ### 配置
 + OS: macOS Catalina 10.15.7 19H2 x86_64 / Macmini8,1
 + OpenCore: 0.6.2
