@@ -1,7 +1,7 @@
 # NUC8I5BEH Hackintosh (OpenCore)
 ## NUC8（豆子峡谷）在线安装macOS
 
-![Hackintosh](AboutThisMac.png)
+![Hackintosh](macos11.png)
 
 ### 1215更新11.1
 继续替换该项目的[EFI](https://github.com/csrutil/NUC8I5BEH)，顺利升级11.1。
