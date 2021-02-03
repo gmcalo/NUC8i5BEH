@@ -3,6 +3,9 @@
 
 ![Hackintosh](macos11.png)
 
+### 2021.2.3
+顺利升级至11.2
+
 ### 1215更新11.1
 继续替换该项目的[EFI](https://github.com/csrutil/NUC8I5BEH)，顺利升级11.1。
 
